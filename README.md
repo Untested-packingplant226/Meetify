@@ -39,7 +39,7 @@ Ensure you have the following installed:
 # Project Structure
 
 This project uses the [Next.js App Router](https://nextjs.org) structure with a clear separation of concerns to maintain organization and scalability.
-
+```
 ├── app/              # Next.js App Router (Pages & Layouts)
 ├── components/       # Reusable UI components
 ├── constants/        # Configuration and static data
@@ -47,17 +47,18 @@ This project uses the [Next.js App Router](https://nextjs.org) structure with a 
 ├── lib/              # Utility functions and Stream actions
 ├── providers/        # Context providers (Stream, Clerk)
 └── public/           # Static assets (Icons, Images)
+```
 
 # Contributing
 
-[Contributions](https://docs.github.com) are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-1.  [Fork the Project](https://docs.github.com)
-2.  [Create your Feature Branch](https://docs.github.com) (`git checkout -b feature/AmazingFeature`)
-3.  [Commit your Changes](https://docs.github.com) (`git commit -m 'Add some AmazingFeature'`)
-4.  [Push to the Branch](https://docs.github.com) (`git push origin feature/AmazingFeature`)
-5.  [Open a Pull Request](https://docs.github.com)
+1.  Fork the Project
+2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the Branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
 # License
 
-Distributed under the [MIT License](https://opensource.org). See [LICENSE](LICENSE) for more information.
+Distributed under the **MIT License**. See `LICENSE` for more information.
